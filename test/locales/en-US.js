@@ -1,26 +1,26 @@
 export default {
   Error: {
-    message: 'Error!'
+    message: 'CError!'
   },
   Success: {
-    message: 'Success!'
+    message: 'CSuccess!'
   },
   Failure: {
-    message: 'Failure!'
+    message: 'CFailure!'
   },
   Unknown: {
     Error: {
-      message: 'Unknown Error!'
+      message: 'CUnknown Error!'
     }
   },
   User: {
     Not: {
       Found: {
-        message: 'User Not Found!'
+        message: 'CUser Not Found!'
       },
       Logged: {
         In: {
-          message: 'User Not Logged In!'
+          message: 'CUser Not Logged In!'
         }
       }
     }
