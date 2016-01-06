@@ -28,12 +28,9 @@ gulp.task('uglify', ['prepublish'], function () {
 gulp.task('browserify', ['uglify'], function () {
   // Single entry point to browserify
   gulp.src('dist/uglify/**/*.js')
-    .pipe(browserify({
-      insertGlobals: true,
-      debug: !gulp.env.production
-    }))
+    .pipe(browserify())
     .pipe(concat('index.min.js'))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('lib'));
 });
 
 gulp.task('static', function () {
