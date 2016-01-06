@@ -1,39 +1,37 @@
 # js-errors [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
-[English README](./README.en.md)
+> General javascript errors generator
 
-> 通用错误处理与生成方案
+javascript errors with
+1. Domain   
+   The same as prefix, errors with prefix can be more recognizable
+2. Predefined errors   
+   Predefined errors are standard errors of js-errors and will be enriched
+3. I18n   
+   Error messages vary with locales
+4. Customization   
+   Error folder can be specified to customize errors
+5. Unification
+   Error code of each error can never be changed, so it can be exchangable through projects, no need to define errors for every project
 
-具备如下功能的javascript错误处理方案
-1. 域(Domain)
-   类似于前缀(Prefix)，方便错误的识别
-2. 预定义错误(即标准错误)   
-   预定义库会随着时间不断的累积，方便使用
-3. 国际化
-   错误的消息值可以随着不同的区域发生变化
-4. 定制化  
-   通过指定错误文件夹定制错误信息
-5. 一致性
-   对于相同的名字的错误，不同的项目可以通用。因为名字与ID在同名错误之间不可变。方便了项目的沟通过
-
-## 安装
+## Installation
 
 ```sh
 $ npm install --save js-errors
 ```
 
-## 使用
+## Usage
 
 ```js
-//获取错误接口
+//Error generation
 var BaseError = require('js-errors').error;
 
-//获取错误消息或者Code信息数据
+//Error definition
 var i18n = require('js-errors').i18n;
-var errorMessages = i18n.get(pathOfErrorMessagesOrCodesDefined);
+var errorMessages = i18n.get(pathOfErrorMessagesDefined);
 ```
 
-### 定义新错误
+### New An Error
 
 ```js
 var error = new BaseError({
@@ -50,16 +48,16 @@ var error = new BaseError({
 //error.restify() => { code: 404, message: "js:hello", name: 'UserNotFound'}
 ```
 
-### 抛出错误
+### Throw An Error
 ```js
 throw error;
 ```
 
-### 错误消息(message)、错误代码(code)和错误名称(name)
+### Error Messages
 
-* 错误消息可以添加前缀，可以根据地区变换
-* 错误代码可以自定义，也可以预定义
-* 错误名称在所有的项目中不会发生变化，可以唯一标识
+* js-errors predefined some errors as standard errors
+* errors can be customized by folders or by generation
+* can also be replaced by providing locales folder when creating a generator
 
 
 ## License
