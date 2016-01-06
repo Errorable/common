@@ -1,7 +1,9 @@
 import assert from 'assert';
-import BaseError from '../lib';
+import BaseError from '../lib/base-error';
 import path from 'path';
 import i18n from '../lib/i18n';
+import jserror from '../lib';
+
 
 describe('js-errors', function () {
   it('should be able to generator Errors!', function () {
@@ -15,6 +17,7 @@ describe('js-errors', function () {
       throw TimeError;
     } catch (e) {
       assert.equal(true, e.code === 'TimeIsNotOk');
+      assert.equal(true, e.name === 'TimeIsNotOk');
       assert.equal(true, e.message === 'hello');
     }
     var dir = path.resolve(__dirname + '/locales');
@@ -27,6 +30,7 @@ describe('js-errors', function () {
       throw TimeError;
     } catch (e) {
       var json = e.restify();
+      assert.equal(true, e.code === 'Time1Is1Not2Ok1');
       assert.equal(true, e.name === 'Time1Is1Not2Ok1');
       assert.equal(true, json.name === 'Time1Is1Not2Ok1');
       assert.equal(true, e.message === '');
@@ -44,6 +48,7 @@ describe('js-errors', function () {
     try {
       throw AnError;
     } catch (e) {
+      console.log(e.code);
       assert.equal(true, e.message === '');
       assert.equal(true, e.name === 'Error');
     }
@@ -73,6 +78,7 @@ describe('js-errors', function () {
       throw AnError2;
     } catch (e) {
       assert.equal(true, e.message === 'User Not Found!');
+      assert.equal(true, e.code === -10001);
       assert.equal(true, e.message === errors['en-US'].User.Not.Found.message);
     }
   });
@@ -125,7 +131,20 @@ describe('js-errors', function () {
     try {
       throw AnError3;
     } catch (e) {
+      console.log(e.code);
       assert.equal(true, e.message === '');
+      assert.equal(true, e.code === '');
+    }
+
+    var SomeError = jserror.error;
+
+    var AnError4 =
+      new SomeError({i18n: jserror.i18n.get(), code: 100});
+    try {
+      throw AnError4;
+    } catch (e) {
+      assert.equal(true, e.message === '');
+      assert.equal(true, e.code === 100);
     }
   });
 });

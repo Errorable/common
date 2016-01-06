@@ -22,25 +22,30 @@ $ npm install --save js-errors
 ## Usage
 
 ```js
-var jsErrors = require('js-errors');
+var BaseError = require('js-errors').error;
+var i18n = require('js-errors').i18n;
 ```
 
-### Get the Generator
+### New An Error
 
 ```js
-var generator = new jsErrors.Generator('en-us', path.resolve('./locales'), 
-['en','en-US', 'zh-CN', 'zh-HK'], 'js:');
+var error = new BaseError({
+      errors: ['user', 'not', 'found'],    //Sequential Error Description
+      prefix: 'java:',                     //Prefix for Messages
+      code: 404,                           //Numeric value for this error
+      message: 'User is not found!',       //Customized Error Messsage
+      locale: 'en-US',                     //Locale for errors
+      i18n: i18n.get(dir)                  //Customized error definition directory
+    });
+//error.name => "UserNotFound"
+//error.code => "UserNotFound"
+//error.message => "java:User is not found!"
+//error.restify() => { code: "TimeIsNotOk", message: "js:hello"}
 ```
 
-### Define an Error
-
+### Throw An Error
 ```js
-var TimeIsNotOkError = generator.generate(['TIME', 'IS', 'not', 'ok'], 'hello', 'en-US');
-var error = new TimeIsNotOkError();
-//error.code => "TimeIsNotOk"
-//error.message => "js:hello"
-//error.restfy() => { code: "TimeIsNotOk", message: "js:hello"}
-```
+throw 
 
 ### Error Messages
 
