@@ -1,4 +1,5 @@
 # js-errors [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
 > General javascript errors generator
 
 javascript errors with
@@ -22,8 +23,12 @@ $ npm install --save js-errors
 ## Usage
 
 ```js
+//Error generation
 var BaseError = require('js-errors').error;
+
+//Error definition
 var i18n = require('js-errors').i18n;
+var errorMessages = i18n.get(pathOfErrorMessagesDefined);
 ```
 
 ### New An Error
@@ -38,14 +43,15 @@ var error = new BaseError({
       i18n: i18n.get(dir)                  //Customized error definition directory
     });
 //error.name => "UserNotFound"
-//error.code => "UserNotFound"
+//error.code => 404
 //error.message => "java:User is not found!"
-//error.restify() => { code: "TimeIsNotOk", message: "js:hello"}
+//error.restify() => { code: 404, message: "js:hello", name: 'UserNotFound'}
 ```
 
 ### Throw An Error
 ```js
-throw 
+throw error;
+```
 
 ### Error Messages
 
@@ -61,9 +67,9 @@ MIT © [calidion](blog.3gcnbeta.com)
 
 [npm-image]: https://badge.fury.io/js/js-errors.svg
 [npm-url]: https://npmjs.org/package/js-errors
-[travis-image]: https://travis-ci.org/JS-Errors/js-errors.svg?branch=master
-[travis-url]: https://travis-ci.org/JS-Errors/js-errors
-[daviddm-image]: https://david-dm.org/JS-Errors/js-errors.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/JS-Errors/js-errors
-[coveralls-image]: https://coveralls.io/repos/JS-Errors/js-errors/badge.svg
-[coveralls-url]: https://coveralls.io/r/JS-Errors/js-errors
+[travis-image]: https://travis-ci.org/calidion/js-errors.svg?branch=master
+[travis-url]: https://travis-ci.org/calidion/js-errors
+[daviddm-image]: https://david-dm.org/calidion/js-errors.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/calidion/js-errors
+[coveralls-image]: https://coveralls.io/repos/calidion/js-errors/badge.svg
+[coveralls-url]: https://coveralls.io/r/calidion/js-errors

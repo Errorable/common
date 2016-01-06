@@ -48,7 +48,6 @@ describe('js-errors', function () {
     try {
       throw AnError;
     } catch (e) {
-      console.log(e.code);
       assert.equal(true, e.message === '');
       assert.equal(true, e.name === 'Error');
     }
@@ -131,7 +130,6 @@ describe('js-errors', function () {
     try {
       throw AnError3;
     } catch (e) {
-      console.log(e.code);
       assert.equal(true, e.message === '');
       assert.equal(true, e.code === '');
     }

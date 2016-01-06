@@ -10,10 +10,31 @@ var coveralls = require('gulp-coveralls');
 var babel = require('gulp-babel');
 var del = require('del');
 var isparta = require('isparta');
+var browserify = require('gulp-browserify');
+var uglify = require('gulp-uglify');
+var concat = require('gulp-concat');
+
 
 // Initialize the babel transpiler so ES2015 files gets compiled
 // when they're loaded
 require('babel-core/register');
+
+
+gulp.task('uglify', ['prepublish'], function () {
+  return gulp.src('dist/**/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/uglify'));
+});
+gulp.task('browserify', ['uglify'], function () {
+  // Single entry point to browserify
+  gulp.src('dist/uglify/**/*.js')
+    .pipe(browserify({
+      insertGlobals: true,
+      debug: !gulp.env.production
+    }))
+    .pipe(concat('index.min.js'))
+    .pipe(gulp.dest('dist'));
+});
 
 gulp.task('static', function () {
   return gulp.src(['lib/*.js', 'test/*.js'])
