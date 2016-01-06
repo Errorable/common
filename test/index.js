@@ -72,8 +72,6 @@ describe('js-errors', function () {
     try {
       throw AnError2;
     } catch (e) {
-      console.log(e);
-      console.log(e.message);
       assert.equal(true, e.message === 'User Not Found!');
       assert.equal(true, e.message === errors['en-US'].User.Not.Found.message);
     }
@@ -89,7 +87,6 @@ describe('js-errors', function () {
     try {
       throw AnError;
     } catch (e) {
-      console.log(e);
       assert.equal(true, e.message === 'sun:');
       assert.equal(true, e.name === 'Error');
     }
@@ -106,8 +103,6 @@ describe('js-errors', function () {
     try {
       throw AnError1;
     } catch (e) {
-      console.log(e);
-      console.log(e.message);
       assert.equal(true, e.message === 'google:CError!');
       assert.equal(true, e.message === 'google:' + errors1['en-US'].Error.message);
     }
@@ -122,8 +117,6 @@ describe('js-errors', function () {
     try {
       throw AnError2;
     } catch (e) {
-      console.log(e);
-      console.log(e.message);
       assert.equal(true, e.message === 'google:');
     }
 
@@ -132,7 +125,6 @@ describe('js-errors', function () {
     try {
       throw AnError3;
     } catch (e) {
-      console.log(e);
       assert.equal(true, e.message === '');
     }
   });
