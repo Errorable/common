@@ -1,0 +1,355 @@
+{
+  "Error": {
+    "messages": {
+      "en-US": "Error!",
+      "zh-CN": "错误！"
+    },
+    "code": -1
+  },
+  "Success": {
+    "messages": {
+      "en-US": "Success!",
+      "zh-CN": " 成功！"
+    },
+    "code": 0
+  },
+  "Failure": {
+    "messages": {
+      "en-US": "Error!",
+      "zh-CN": "错误！"
+    },
+    "code": -1
+  },
+  "Failed": {
+    "messages": {
+      "en-US": "Error!",
+      "zh-CN": "错误！"
+    },
+    "code": -1
+  },
+  "UnknownError": {
+    "messages": {
+      "en-US": "Unknown Error!",
+      "zh-CN": "未知错误！"
+    },
+    "code": -2
+  },
+  "AdministratorNotFound": {
+    "messages": {
+      "en-US": "Administrator Not Found!",
+      "zh-CN": "管理员未找到！"
+    }
+  },
+  "AdministratorNotLoggedIn": {
+    "messages": {
+      "en-US": "Administrator Not Logged In!",
+      "zh-CN": "管理员未登录！"
+    }
+  },
+  "AdministratorExisted": {
+    "messages": {
+      "en-US": "Administrator Existed!",
+      "zh-CN": "管理员已经存在！"
+    }
+  },
+  "AdminNotFound": {
+    "messages": {
+      "en-US": "Administrator Not Found!",
+      "zh-CN": "管理员未找到！"
+    }
+  },
+  "AdminNotLoggedIn": {
+    "messages": {
+      "en-US": "Administrator Not Logged In!",
+      "zh-CN": "管理员未登录！"
+    }
+  },
+  "AdminExisted": {
+    "messages": {
+      "en-US": "Administrator Existed!",
+      "zh-CN": "管理员已经存在！"
+    }
+  },
+  "ApplicationIdError": {
+    "messages": {
+      "en-US": "Application ID Error!",
+      "zh-CN": "应用ID错误！"
+    }
+  },
+  "AppIdError": {
+    "messages": {
+      "en-US": "Application ID Error!",
+      "zh-CN": "应用ID错误！"
+    }
+  },
+  "CategoryNotFound": {
+    "messages": {
+      "en-US": "Category Not Found!",
+      "zh-CN": "分类未找到！"
+    }
+  },
+  "DatabaseError": {
+    "messages": {
+      "en-US": "Database Error!",
+      "zh-CN": "数据库错误！"
+    }
+  },
+  "EmailNotSpecified": {
+    "messages": {
+      "en-US": "Email Not Specified!",
+      "zh-CN": "电子邮箱未指定！"
+    }
+  },
+  "EmailExisted": {
+    "messages": {
+      "en-US": "Email Existed!",
+      "zh-CN": "电子邮箱已经存在！"
+    }
+  },
+  "FileNotFound": {
+    "messages": {
+      "en-US": "File Not Found!",
+      "zh-CN": "文件未找到！"
+    }
+  },
+  "MerchantIdError": {
+    "messages": {
+      "en-US": "Merchant ID Error!",
+      "zh-CN": "商户ID错误！"
+    }
+  },
+  "MerchantNotLoggedIn": {
+    "messages": {
+      "en-US": "Merchant Not Logged In!",
+      "zh-CN": "商户未登录！"
+    }
+  },
+  "MobilePhoneExisted": {
+    "messages": {
+      "en-US": "Mobile Phone Existed!",
+      "zh-CN": "手机已经存在！"
+    }
+  },
+  "NetworkError": {
+    "messages": {
+      "en-US": "Network Error!",
+      "zh-CN": "网络错误"
+    }
+  },
+  "PasswordNotSpecified": {
+    "messages": {
+      "en-US": "Password Not Specified!",
+      "zh-CN": "密码未指定！"
+    }
+  },
+  "PasswordError": {
+    "messages": {
+      "en-US": "Password Error!",
+      "zh-CN": "密码错误！"
+    }
+  },
+  "PhoneExisted": {
+    "messages": {
+      "en-US": "Phone Existed!",
+      "zh-CN": "电话已经存在！"
+    }
+  },
+  "SignatureNotMatch": {
+    "messages": {
+      "en-US": "Signature Not Match!",
+      "zh-CN": "签名不匹配"
+    }
+  },
+  "UserNotFound": {
+    "messages": {
+      "en-US": "User Not Found!",
+      "zh-CN": "用户未找到！"
+    },
+    "code": -10001
+  },
+  "UserNotLoggedIn": {
+    "messages": {
+      "en-US": "User Not Logged In!",
+      "zh-CN": "用户未登录！"
+    },
+    "code": -10002
+  },
+  "UserExisted": {
+    "messages": {
+      "en-US": "User Existed!",
+      "zh-CN": "用户已经存在！"
+    }
+  },
+  "UserNameExisted": {
+    "messages": {
+      "en-US": "User Name Existed!",
+      "zh-CN": "用户名已经存在！"
+    }
+  },
+  "UserNameNotSpecified": {
+    "messages": {
+      "en-US": "User Name Not Specified!",
+      "zh-CN": "用户名未指定！"
+    }
+  },
+  "UpdateFailed": {
+    "messages": {
+      "en-US": "Update Failed",
+      "zh-CN": "更新失败"
+    }
+  },
+  "HttpContinue": {
+    "messages": {
+      "en-US": "Continue",
+      "zh-CN": "继续"
+    },
+    "code": 100
+  },
+  "HttpSwitchingProtocols": {
+    "messages": {
+      "en-US": "Switching Protocols",
+      "zh-CN": "协议切换"
+    },
+    "code": 101
+  },
+  "HttpProcessing": {
+    "messages": {
+      "en-US": "Processing",
+      "zh-CN": "处理"
+    },
+    "code": 102
+  },
+  "HttpOk": {
+    "messages": {
+      "en-US": "OK",
+      "zh-CN": "正常"
+    },
+    "code": 200
+  },
+  "HttpCreated": {
+    "messages": {
+      "en-US": "Created",
+      "zh-CN": "已创建"
+    },
+    "code": 201
+  },
+  "HttpAccepted": {
+    "messages": {
+      "en-US": "Accepted",
+      "zh-CN": "正常"
+    },
+    "code": 202
+  },
+  "HttpNonAuthoritativeInformation": {
+    "messages": {
+      "en-US": "Non-Authoritative Information",
+      "zh-CN": "非权威信息"
+    },
+    "code": 203
+  },
+  "HttpNoContent": {
+    "messages": {
+      "en-US": "No Content",
+      "zh-CN": "无内容"
+    },
+    "code": 204
+  },
+  "HttpResetContent": {
+    "messages": {
+      "en-US": "Reset Content",
+      "zh-CN": "重置内容"
+    },
+    "code": 205
+  },
+  "HttpPartialContent": {
+    "messages": {
+      "en-US": "Partial Content",
+      "zh-CN": "部分内容"
+    },
+    "code": 206
+  },
+  "HttpMultiStatus": {
+    "messages": {
+      "en-US": "Multi-Status",
+      "zh-CN": "多状态"
+    },
+    "code": 207
+  },
+  "HttpAlreadyReported": {
+    "messages": {
+      "en-US": "Already Reported",
+      "zh-CN": "已报告"
+    },
+    "code": 208
+  },
+  "HttpImUsed": {
+    "messages": {
+      "en-US": "IM Used",
+      "zh-CN": "采用IM"
+    },
+    "code": 226
+  },
+  "HttpMultipleChoices": {
+    "messages": {
+      "en-US": "Multiple Choices",
+      "zh-CN": "多种选择"
+    },
+    "code": 300
+  },
+  "HttpMovedPermanently": {
+    "messages": {
+      "en-US": "Moved Permanently",
+      "zh-CN": "永久移动"
+    },
+    "code": 301
+  },
+  "HttpFound": {
+    "messages": {
+      "en-US": "Found",
+      "zh-CN": "找到"
+    },
+    "code": 302
+  },
+  "HttpSeeOther": {
+    "messages": {
+      "en-US": "See Other",
+      "zh-CN": "看看其它"
+    },
+    "code": 303
+  },
+  "HttpNotModified": {
+    "messages": {
+      "en-US": "Not Modified",
+      "zh-CN": "未修改"
+    },
+    "code": 304
+  },
+  "HttpUseProxy": {
+    "messages": {
+      "en-US": "Use Proxy",
+      "zh-CN": "使用代理"
+    },
+    "code": 305
+  },
+  "HttpSwitchProxy": {
+    "messages": {
+      "en-US": "Switch Proxy",
+      "zh-CN": "切换代理"
+    },
+    "code": 306
+  },
+  "HttpTemporaryRedirect": {
+    "messages": {
+      "en-US": "Temporary Redirect",
+      "zh-CN": "暂时性重定向"
+    },
+    "code": 307
+  },
+  "HttpPermanentRedirect": {
+    "messages": {
+      "en-US": "Permanent Redirect",
+      "zh-CN": "永久重定向"
+    },
+    "code": 308
+  }
+}

@@ -69,9 +69,9 @@ MIT © [calidion](blog.3gcnbeta.com)
 
 [npm-image]: https://badge.fury.io/js/js-errors.svg
 [npm-url]: https://npmjs.org/package/js-errors
-[travis-image]: https://travis-ci.org/js-errors/js-errors.svg?branch=master
-[travis-url]: https://travis-ci.org/js-errors/js-errors
+[travis-image]: https://travis-ci.org/JS-Errors/js-errors.svg
+[travis-url]: https://travis-ci.org/JS-Errors/js-errors
 [daviddm-image]: https://david-dm.org/js-errors/js-errors.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/js-errors/js-errors
-[coveralls-image]: https://coveralls.io/repos/js-errors/js-errors/badge.svg
-[coveralls-url]: https://coveralls.io/r/js-errors/js-errors
+[coveralls-image]: https://coveralls.io/repos/JS-Errors/js-errors/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/JS-Errors/js-errors?branch=master
