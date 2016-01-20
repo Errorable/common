@@ -136,6 +136,18 @@
       "zh-CN": "文件未找到！"
     }
   },
+  "FavoriteExisted": {
+    "messages": {
+      "en-US": "Favorite Existed!",
+      "zh-CN": "收藏已经存在！"
+    }
+  },
+  "FavoriteNotFound": {
+    "messages": {
+      "en-US": "Favorite Not Found!",
+      "zh-CN": "收藏未找到！"
+    }
+  },
   "IdNotSpecified": {
     "messages": {
       "en-US": "ID Not Specified!",
@@ -220,6 +232,12 @@
       "zh-CN": "电话已经存在！"
     }
   },
+  "PriceHistoryNotFound": {
+    "messages": {
+      "en-US": "Price History Not Found!",
+      "zh-CN": "价格历史未找到！"
+    }
+  },
   "SignatureNotMatch": {
     "messages": {
       "en-US": "Signature Not Match!",
@@ -268,6 +286,12 @@
     "messages": {
       "en-US": "User Name Length Invalid!",
       "zh-CN": "用户名长度无效！"
+    }
+  },
+  "InputInvalid": {
+    "messages": {
+      "en-US": "Input Invalid!",
+      "zh-CN": "输入无效"
     }
   },
   "UpdateFailed": {

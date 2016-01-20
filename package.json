@@ -1,6 +1,6 @@
 {
   "name": "errorable-common",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Common Errors for Errorable",
   "homepage": "",
   "author": {
@@ -41,5 +41,8 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "errorable": "^0.1.2"
+  }
 }
