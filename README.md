@@ -8,7 +8,7 @@ MIT © [calidion](blog.3gcnbeta.com)
 
 
 [npm-image]: https://badge.fury.io/Errorable/common.svg
-[npm-url]: https://npmjs.org/package/common
+[npm-url]: https://npmjs.org/package/errorable-common
 [travis-image]: https://travis-ci.org/Errorable/common.svg
 [travis-url]: https://travis-ci.org/Errorable/common
 [daviddm-image]: https://david-dm.org/Errorable/common.svg?theme=shields.io
