@@ -34,6 +34,24 @@
     },
     "code": -2
   },
+  "NotFound": {
+    "messages": {
+      "en-US": "Not Found!",
+      "zh-CN": "未找到！"
+    }
+  },
+  "NotLoggedIn": {
+    "messages": {
+      "en-US": "Not Logged In!",
+      "zh-CN": "未登录！"
+    }
+  },
+  "Existed": {
+    "messages": {
+      "en-US": "Existed!",
+      "zh-CN": "已经存在！"
+    }
+  },
   "AdministratorNotFound": {
     "messages": {
       "en-US": "Administrator Not Found!",
