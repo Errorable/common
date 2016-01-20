@@ -82,6 +82,12 @@
       "zh-CN": "应用ID错误！"
     }
   },
+  "BusinessNotLoggedIn": {
+    "messages": {
+      "en-US": "Business Not Found!",
+      "zh-CN": "商户没有找到！"
+    }
+  },
   "CategoryNotFound": {
     "messages": {
       "en-US": "Category Not Found!",
@@ -112,6 +118,12 @@
       "zh-CN": "文件未找到！"
     }
   },
+  "IdNotSpecified": {
+    "messages": {
+      "en-US": "ID Not Specified!",
+      "zh-CN": "ID未指定！"
+    }
+  },
   "MerchantIdError": {
     "messages": {
       "en-US": "Merchant ID Error!",
@@ -124,16 +136,46 @@
       "zh-CN": "商户未登录！"
     }
   },
+  "MerchantNotFound": {
+    "messages": {
+      "en-US": "Merchant Not Found!",
+      "zh-CN": "商户未找到！"
+    }
+  },
   "MobilePhoneExisted": {
     "messages": {
       "en-US": "Mobile Phone Existed!",
       "zh-CN": "手机已经存在！"
     }
   },
+  "NameNotSpecified": {
+    "messages": {
+      "en-US": "Name Not Specified!",
+      "zh-CN": "名字未指定！"
+    }
+  },
   "NetworkError": {
     "messages": {
       "en-US": "Network Error!",
       "zh-CN": "网络错误"
+    }
+  },
+  "OrderNotFound": {
+    "messages": {
+      "en-US": "Order Not Found!",
+      "zh-CN": "订单未找到！"
+    }
+  },
+  "OrderNotUpdated": {
+    "messages": {
+      "en-US": "Order Not Updated!",
+      "zh-CN": "订单未更新！"
+    }
+  },
+  "OrderStateTransfterNotAllowed": {
+    "messages": {
+      "en-US": "Order State Transfter Not Allowed!",
+      "zh-CN": "订单状态转换不被允许！"
     }
   },
   "PasswordNotSpecified": {
@@ -148,6 +190,12 @@
       "zh-CN": "密码错误！"
     }
   },
+  "PasswordLengthInvalid": {
+    "messages": {
+      "en-US": "Password Length Invalid!",
+      "zh-CN": "密码长度有误！"
+    }
+  },
   "PhoneExisted": {
     "messages": {
       "en-US": "Phone Existed!",
@@ -158,6 +206,12 @@
     "messages": {
       "en-US": "Signature Not Match!",
       "zh-CN": "签名不匹配"
+    }
+  },
+  "StateNotSpecified": {
+    "messages": {
+      "en-US": "State Not Specified!",
+      "zh-CN": "状态未指定！"
     }
   },
   "UserNotFound": {
@@ -190,6 +244,12 @@
     "messages": {
       "en-US": "User Name Not Specified!",
       "zh-CN": "用户名未指定！"
+    }
+  },
+  "UserNameLengthInvalid": {
+    "messages": {
+      "en-US": "User Name Length Invalid!",
+      "zh-CN": "用户名长度无效！"
     }
   },
   "UpdateFailed": {
