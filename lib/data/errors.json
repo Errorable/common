@@ -202,7 +202,7 @@
       "zh-CN": "订单未更新！"
     }
   },
-  "OrderStateTransfterNotAllowed": {
+  "OrderStateTransferNotAllowed": {
     "messages": {
       "en-US": "Order State Transfter Not Allowed!",
       "zh-CN": "订单状态转换不被允许！"
