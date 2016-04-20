@@ -1,8 +1,8 @@
 {
-  "Error": {
+  "Failed": {
     "messages": {
-      "en-US": "Error!",
-      "zh-CN": "错误！"
+      "en-US": "Failed!",
+      "zh-CN": "失败!"
     },
     "code": -1
   },
@@ -15,15 +15,8 @@
   },
   "Failure": {
     "messages": {
-      "en-US": "Error!",
-      "zh-CN": "错误！"
-    },
-    "code": -1
-  },
-  "Failed": {
-    "messages": {
-      "en-US": "Error!",
-      "zh-CN": "错误！"
+      "en-US": "Failed!",
+      "zh-CN": "失败!"
     },
     "code": -1
   },

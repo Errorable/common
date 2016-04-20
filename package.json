@@ -1,6 +1,6 @@
 {
   "name": "errorable-common",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Common Errors for Errorable",
   "homepage": "",
   "author": {
@@ -21,7 +21,7 @@
     "babel-core": "^5.5.0",
     "babelify": "^7.2.0",
     "del": "^2.0.2",
-    "errorable": "^0.1.1",
+    "errorable": "^0.3.1",
     "gulp": "^3.6.0",
     "gulp-babel": "^5.1.0",
     "gulp-browserify": "^0.5.1",
@@ -43,6 +43,5 @@
   },
   "license": "MIT",
   "dependencies": {
-    "errorable": "^0.1.2"
   }
 }
