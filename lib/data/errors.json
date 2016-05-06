@@ -147,6 +147,12 @@
       "zh-CN": "ID未指定！"
     }
   },
+  "KeyInvalid": {
+    "messages": {
+      "en-US": "Key Invalid!",
+      "zh-CN": "键错误！"
+    }
+  },
   "MerchantIdError": {
     "messages": {
       "en-US": "Merchant ID Error!",
@@ -163,6 +169,12 @@
     "messages": {
       "en-US": "Merchant Not Found!",
       "zh-CN": "商户未找到！"
+    }
+  },
+  "MerchantNotExisted": {
+    "messages": {
+      "en-US": "Merchant Not Existed!",
+      "zh-CN": "商户不存在！"
     }
   },
   "MobilePhoneExisted": {
