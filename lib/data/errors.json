@@ -4,7 +4,7 @@
       "en-US": "Failed!",
       "zh-CN": "失败!"
     },
-    "code": -1
+    "code": 1
   },
   "Success": {
     "messages": {
@@ -18,38 +18,42 @@
       "en-US": "Failed!",
       "zh-CN": "失败!"
     },
-    "code": -1
+    "code": 1
   },
   "UnknownError": {
     "messages": {
       "en-US": "Unknown Error!",
       "zh-CN": "未知错误！"
     },
-    "code": -2
+    "code": 16777217
   },
   "NotFound": {
     "messages": {
       "en-US": "Not Found!",
       "zh-CN": "未找到！"
-    }
+    },
+    "code": 5
   },
   "NotLoggedIn": {
     "messages": {
       "en-US": "Not Logged In!",
       "zh-CN": "未登录！"
-    }
+    },
+    "code": 6
   },
   "Existed": {
     "messages": {
       "en-US": "Existed!",
       "zh-CN": "已经存在！"
-    }
+    },
+    "code": 6
   },
   "AdministratorNotFound": {
     "messages": {
       "en-US": "Administrator Not Found!",
       "zh-CN": "管理员未找到！"
-    }
+    },
+    "code": 117440517
   },
   "AdministratorNotLoggedIn": {
     "messages": {
@@ -61,13 +65,15 @@
     "messages": {
       "en-US": "Administrator Existed!",
       "zh-CN": "管理员已经存在！"
-    }
+    },
+    "code": 117440518
   },
   "AdminNotFound": {
     "messages": {
       "en-US": "Administrator Not Found!",
       "zh-CN": "管理员未找到！"
-    }
+    },
+    "code": 117440517
   },
   "AdminNotLoggedIn": {
     "messages": {
@@ -79,19 +85,22 @@
     "messages": {
       "en-US": "Administrator Existed!",
       "zh-CN": "管理员已经存在！"
-    }
+    },
+    "code": 117440518
   },
   "ApplicationIdError": {
     "messages": {
       "en-US": "Application ID Error!",
       "zh-CN": "应用ID错误！"
-    }
+    },
+    "code": 268500993
   },
   "AppIdError": {
     "messages": {
       "en-US": "Application ID Error!",
       "zh-CN": "应用ID错误！"
-    }
+    },
+    "code": 268500993
   },
   "BusinessNotLoggedIn": {
     "messages": {
@@ -103,31 +112,36 @@
     "messages": {
       "en-US": "Category Not Found!",
       "zh-CN": "分类未找到！"
-    }
+    },
+    "code": 184549381
   },
   "DatabaseError": {
     "messages": {
       "en-US": "Database Error!",
       "zh-CN": "数据库错误！"
-    }
+    },
+    "code": 50331649
   },
   "EmailNotSpecified": {
     "messages": {
       "en-US": "Email Not Specified!",
       "zh-CN": "电子邮箱未指定！"
-    }
+    },
+    "code": 83886091
   },
   "EmailExisted": {
     "messages": {
       "en-US": "Email Existed!",
       "zh-CN": "电子邮箱已经存在！"
-    }
+    },
+    "code": 83886086
   },
   "FileNotFound": {
     "messages": {
       "en-US": "File Not Found!",
       "zh-CN": "文件未找到！"
-    }
+    },
+    "code": 100663301
   },
   "FavoriteExisted": {
     "messages": {
@@ -157,7 +171,8 @@
     "messages": {
       "en-US": "Merchant ID Error!",
       "zh-CN": "商户ID错误！"
-    }
+    },
+    "code": 234946561
   },
   "MerchantNotLoggedIn": {
     "messages": {
@@ -177,6 +192,18 @@
       "zh-CN": "商户不存在！"
     }
   },
+  "MerchantExisted": {
+    "messages": {
+      "en-US": "Merchant Existed!",
+      "zh-CN": "商户已经存在！"
+    }
+  },
+  "MerchantVerified": {
+    "messages": {
+      "en-US": "Merchant Verified!",
+      "zh-CN": "商户已经审核通过！"
+    }
+  },
   "MobilePhoneExisted": {
     "messages": {
       "en-US": "Mobile Phone Existed!",
@@ -187,13 +214,15 @@
     "messages": {
       "en-US": "Name Not Specified!",
       "zh-CN": "名字未指定！"
-    }
+    },
+    "code": 201326603
   },
   "NetworkError": {
     "messages": {
       "en-US": "Network Error!",
       "zh-CN": "网络错误"
-    }
+    },
+    "code": 251658241
   },
   "OrderNotFound": {
     "messages": {
@@ -217,13 +246,15 @@
     "messages": {
       "en-US": "Password Not Specified!",
       "zh-CN": "密码未指定！"
-    }
+    },
+    "code": 134217739
   },
   "PasswordError": {
     "messages": {
       "en-US": "Password Error!",
       "zh-CN": "密码错误！"
-    }
+    },
+    "code": 134217729
   },
   "PasswordLengthInvalid": {
     "messages": {
@@ -235,7 +266,8 @@
     "messages": {
       "en-US": "Phone Existed!",
       "zh-CN": "电话已经存在！"
-    }
+    },
+    "code": 218103814
   },
   "PriceHistoryNotFound": {
     "messages": {
@@ -247,7 +279,8 @@
     "messages": {
       "en-US": "Signature Not Match!",
       "zh-CN": "签名不匹配"
-    }
+    },
+    "code": 285212672
   },
   "StateNotSpecified": {
     "messages": {
@@ -260,7 +293,7 @@
       "en-US": "User Not Found!",
       "zh-CN": "用户未找到！"
     },
-    "code": -10001
+    "code": 33554437
   },
   "UserNotLoggedIn": {
     "messages": {
@@ -273,13 +306,15 @@
     "messages": {
       "en-US": "User Existed!",
       "zh-CN": "用户已经存在！"
-    }
+    },
+    "code": 33554438
   },
   "UserNameExisted": {
     "messages": {
       "en-US": "User Name Existed!",
       "zh-CN": "用户名已经存在！"
-    }
+    },
+    "code": 33554438
   },
   "UserNameNotSpecified": {
     "messages": {
@@ -296,13 +331,15 @@
   "InputInvalid": {
     "messages": {
       "en-US": "Input Invalid!",
-      "zh-CN": "输入无效"
-    }
+      "zh-CN": "输入无效!"
+    },
+    "code": 2
   },
   "UpdateFailed": {
     "messages": {
       "en-US": "Update Failed",
       "zh-CN": "更新失败"
-    }
+    },
+    "code": 1537
   }
 }
